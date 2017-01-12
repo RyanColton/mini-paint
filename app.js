@@ -1,8 +1,11 @@
 $(document).ready(function() {
-  var color = 'white';
-  var colors = 'red blue green yellow white'
+  var color = 'black';
+  var colors = 'red purple blue green yellow black'
   $('#red').on('click', function(){
     color = 'red';
+  })
+  $('#purple').on('click', function(){
+    color = 'purple';
   })
   $('#blue').on('click', function(){
     color = 'blue';
@@ -14,10 +17,10 @@ $(document).ready(function() {
     color = 'yellow';
   })
   $('#white').on('click', function(){
-    color = 'white';
+    color = 'black';
   })
   $('.box').on('click', function(){
-   $(this).addClass(color);
+        $(this).addClass(color);
   })
   $('.box').on('dblclick', function(){
     $(this).removeClass(colors);

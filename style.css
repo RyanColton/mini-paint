@@ -22,11 +22,11 @@ div div {
     height: 2%;
     outline: 1px solid #fff;
     float: left;
-    background: black;
+    background: white;
 }
 
-.white {
-  background: #fff;
+.black {
+  background: black;
 }
 
 .red {
@@ -45,8 +45,13 @@ div div {
   background: yellow;
 }
 
+.purple{
+  background: purple;
+}
+
 .pallette-white {
-  background: white;
+  background: black;
+  color: white;
   height: 2%;
   width: 1%;
   padding: 10px;
@@ -54,7 +59,7 @@ div div {
 }
 
 .pallette-black {
-  background: black;
+  background: grey;
   color: white;
   height: 2%;
   width: 1%;
@@ -63,6 +68,12 @@ div div {
 
 .pallette-red {
   background: red;
+  height: 2%;
+  width: 1%;
+  padding: 10px
+}
+.pallette-purple {
+  background: purple;
   height: 2%;
   width: 1%;
   padding: 10px
